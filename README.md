@@ -7,5 +7,5 @@ The purpose was creating something quick and simple you can grab and use in your
 
 ---
 
-_Until next time_|: >Quote: "The Adventure."
+>_Until next time_|: >Quote: "The Adventure."
 
