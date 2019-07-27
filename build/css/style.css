@@ -1,12 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(71, 56, 71);
     color:rgb(201, 193, 209);
+    
 }
 
 
@@ -19,19 +21,22 @@ header {
 }
 
 li, a   {
-    color:red;
+   
     border: none;
     display: inline-block;
 }
 
 .user-info {
     cursor: pointer;
+    text-decoration: underline;
 }
+
 .btn-1 {
     cursor: pointer;
     padding: 10px 15px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 5px;
+    border-style: 5px solid black
 }
 
 .logo {
@@ -68,10 +73,17 @@ li, a   {
     transform: scale(0,1);
 }
 
+
 .navbar a:hover::before {
     color:#000;
     transform: scale(1,1);
 }
+
+.navbar a:hover:focus {
+    color:#000;
+    transform: scale(1,1);
+}
+
 
 .sideNav {
     height: 100%;
@@ -136,6 +148,7 @@ font-size: 3.4rem;
     align-items: center;
     flex-direction: column;
     margin-top: 70px;
+    
 }
 
 h1,h2,h3,h4,p {
@@ -146,7 +159,7 @@ h2,h3,h4 {
 }
 
 
-@media(max-width:751px){
+@media(max-width:900px){
 .navagation a, header {
     display: none;
 }
@@ -157,13 +170,11 @@ h2,h3 {
 
 }
 
-@media(min-width:750px){
+@media(min-width:899px){
 .menu {
     display: none;
 }
 
-h4 {
-    display: block;
-}
+
 
 }
