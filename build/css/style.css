@@ -26,17 +26,24 @@ li, a   {
     display: inline-block;
 }
 
-.user-info {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 .btn-1 {
     cursor: pointer;
     padding: 10px 15px;
     margin: 10px;
+    background-color: transparent;
     border-radius: 5px;
-    border-style: 5px solid black
+    border-style: 5px solid black;
+    color:white;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-style: 5px solid rgb(80, 6, 6);
+    color:rgb(230, 176, 0);
 }
 
 .logo {
@@ -49,6 +56,7 @@ li, a   {
 }
 
 .navbar a {
+    
     color:wheat;
     text-align: center;
     text-decoration: none;
