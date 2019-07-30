@@ -7,8 +7,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(71, 56, 71);
-    color:rgb(201, 193, 209);
-    
+    color:rgb(201, 193, 209);  
 }
 
 
@@ -16,12 +15,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(90, 16, 62);
-    
+    background-color: rgb(90, 16, 62);   
 }
 
 li, a   {
-   
     border: none;
     display: inline-block;
 }
@@ -62,8 +59,7 @@ li, a   {
     text-decoration: none;
     font-size: 1rem;
     padding:1.3rem 2rem;
-     
-    
+
 }
 
 
@@ -125,10 +121,10 @@ li, a   {
 
  
 .sideNav {
-position:absolute;
-top:0;
-right:2rem;
-font-size: 3.4rem;
+    position:absolute;
+    top:0;
+    right:2rem;
+    font-size: 3.4rem;
 }
 
 .menuClosed{
@@ -141,8 +137,7 @@ font-size: 3.4rem;
     cursor: pointer;
     background-color: rgb(131, 144, 156);
     padding: 0 18px;
-    
-    }
+}
 
 #content {
     transition:margin-left 0.5s;
@@ -162,6 +157,7 @@ font-size: 3.4rem;
 h1,h2,h3,h4,p {
     text-align: center;
 }
+
 h2,h3,h4 {
     display: none;
 }
@@ -179,10 +175,9 @@ h2,h3 {
 }
 
 @media(min-width:899px){
-.menu {
+
+    .menu {
     display: none;
 }
-
-
 
 }
