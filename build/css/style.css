@@ -18,7 +18,7 @@ header {
     background-color: rgb(90, 16, 62);   
 }
 
-li, a   {
+a   {
     border: none;
     display: inline-block;
 }
